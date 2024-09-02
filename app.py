@@ -8,7 +8,7 @@ import pickle as pkl
 from sklearn.preprocessing import LabelEncoder
 
 archive_path = 'big_mart_data.7z'
-csv_filename = 'big_mart_data_backup.csv'
+csv_filename = 'big_mart_data.csv'
 
 with tempfile.TemporaryDirectory() as temp_dir:
     with py7zr.SevenZipFile(archive_path, mode='r') as archive:
@@ -21,7 +21,7 @@ with tempfile.TemporaryDirectory() as temp_dir:
     if not os.path.exists(csv_file_path):
         raise FileNotFoundError(f"File not found: {csv_file_path}")
     
-    news_data = pd.read_csv(csv_file_path)
+    big_mart_data = pd.read_csv(csv_file_path)
 
 loaded_model = pkl.load(open('regressor.pkl', 'rb'))
 # big_mart_data = pd.read_csv('big_mart_data_backup.csv')
