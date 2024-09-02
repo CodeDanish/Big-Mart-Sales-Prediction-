@@ -55,8 +55,9 @@ streamlit run app.py
 
 Usage:
 
--Web Application: Use the web app to predict the sales of a product by inputting relevant details such as product type, store type, and promotional information. The app will output the expected sales for the given inputs.
--Notebooks: Explore the Jupyter notebooks provided in the repository to understand the data preprocessing, feature engineering, and model training processes.
+- Web Application: Use the web app to predict the sales of a product by inputting relevant details such as product type, store type, and promotional information. The app will output the expected sales for the given inputs.
+
+- Notebooks: Explore the Jupyter notebooks provided in the repository to understand the data preprocessing, feature engineering, and model training processes.
 
 Technologies Used:
 Programming Language: Python
