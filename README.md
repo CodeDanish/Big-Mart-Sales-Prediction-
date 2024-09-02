@@ -81,6 +81,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 Demo:
 
+https://htbf8izswjtrve9eff9eej.streamlit.app/
 
 
 
