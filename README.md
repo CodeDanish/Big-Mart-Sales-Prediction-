@@ -131,13 +131,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 > - [Pandas Documentation](https://pandas.pydata.org/)
 > - [Streamlit Documentation](https://docs.streamlit.io/)
 ```
-
-### Key Elements:
-- **Emojis**: Enhance the sections visually.
-- **Badges**: Highlight important aspects like technology stack and license.
-- **Project Structure**: Clearly outlines the project files and organization.
-- **Model Performance**: Displays key metrics for each model.
-- **Installation and Setup**: Straightforward steps for users to set up the project locally.
-- **Demo Link**: Provides a visual button for the app demo.
-
-Feel free to update the links, images, and any additional details to fit your specific project!
